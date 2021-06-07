@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Dá margin e padding 0 para os navegadores ficarem todos iguais com relação a tamanho */
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	font-family: arial, sans-seriff;
+}
+
+.container{
+	margin-top: 3%;
+	
+	width:50%;
+	heigth: auto;
+	border: 1px #000 solid;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.container h1{
+	text-align: center;
+}
+
+
+.container form input, select, textarea{
+	display: block;
+	
+	border: none;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin: 20px;
+	width:570px;
+	height:30px;
+	border-bottom: 1px #ccc solid;
+}
+
+input[type=submit]{
+	border-radius: 5px;
+	background: #1E90FF;
+	width: 40% !important;
+	display: inline !important;
+	margin-left:35px !important;
+}
+input[type=reset]{
+	border-radius: 5px;
+	background: #FF6347;
+	width: 40% !important;
+	display: inline !important;
+}
+
+
+
+
